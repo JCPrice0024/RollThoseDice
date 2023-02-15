@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: #010A10;
+    color: #FFFBF2;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+h2,h3,h4,h5,h6 {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Headings */
+
+.title-heading {
+    margin: 30px;
+    font-size: 6rem;
+    color: #C10206;
+    text-shadow: 5px 0 #211D21;
+}
+
+.player-heading {
+    font-size: 2rem;
+}
+
+/* Containers */
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+.dice {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Images */
+
+.dice-imgs {
+    width: 60%;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 5%;
+}
+
+.footer-link {
+    color: #C10206;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #DFE2DB;
+}
+
+/* Button */
+
+.btn {
+    background: #A50113;
+    background-image: -webkit-linear-gradient(top, #A50113, #C10206);
+    background-image: -moz-linear-gradient(top, #A50113, #C10206);
+    background-image: -ms-linear-gradient(top, #A50113, #C10206);
+    background-image: -o-linear-gradient(top, #A50113, #C10206);
+    background-image: linear-gradient(to bottom, #A50113, #C10206);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    margin-top: 3%;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fff;
+    color: #A50113;
+    text-decoration: none;
+  }
+
+/* Icon from JS */
+
+.victory {
+    margin: auto 20px;
+    font-size: 6rem;
+}
+
